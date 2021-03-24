@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="512dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/board" />
+
+
+
+    <TextView
+        android:id="@+id/black_pawn_1"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/black_pawn_2"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/black_pawn_3"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/black_pawn_4"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/black_pawn_5"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/black_pawn_6"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:layout_marginLeft="254dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/black_pawn_7"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/black_pawn_8"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:layout_marginLeft="354dp"
+        android:layout_marginTop="100dp" />
+
+
+
+    <TextView
+        android:id="@+id/white_pawn_1"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="354dp"
+        />
+
+    <TextView
+        android:id="@+id/white_pawn_2"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="354dp" />
+
+    <TextView
+        android:id="@+id/white_pawn_3"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="354dp" />
+
+    <TextView
+        android:id="@+id/white_pawn_4"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="354dp" />
+
+    <TextView
+        android:id="@+id/white_pawn_5"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="354dp" />
+
+    <TextView
+        android:id="@+id/white_pawn_6"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="254dp"
+        android:layout_marginTop="354dp" />
+
+    <TextView
+        android:id="@+id/white_pawn_7"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="354dp" />
+
+    <TextView
+        android:id="@+id/white_pawn_8"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@string/П"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="358dp"
+        android:layout_marginTop="354dp" />
+
+
+
+</FrameLayout>
