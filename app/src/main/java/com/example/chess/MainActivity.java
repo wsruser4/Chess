@@ -15,6 +15,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        white_pawn_1 = findViewById(R.id.white_pawn_1);
+        white_pawn_2 = findViewById(R.id.white_pawn_2);
+        white_pawn_3 = findViewById(R.id.white_pawn_3);
+        white_pawn_4 = findViewById(R.id.white_pawn_4);
+        white_pawn_5 = findViewById(R.id.white_pawn_5);
+        white_pawn_6 = findViewById(R.id.white_pawn_6);
+        white_pawn_7 = findViewById(R.id.white_pawn_7);
+        white_pawn_8 = findViewById(R.id.white_pawn_8);
+
 
     }
 }

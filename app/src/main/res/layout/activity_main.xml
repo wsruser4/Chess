@@ -94,7 +94,7 @@
         android:gravity="center"
         android:textSize="32sp"
         android:textColor="#000"
-        android:layout_marginLeft="304dp"
+        android:layout_marginLeft="308dp"
         android:layout_marginTop="100dp" />
 
     <TextView
@@ -105,7 +105,7 @@
         android:gravity="center"
         android:textSize="32sp"
         android:textColor="#000"
-        android:layout_marginLeft="354dp"
+        android:layout_marginLeft="358dp"
         android:layout_marginTop="100dp" />
 
 
@@ -185,7 +185,7 @@
         android:gravity="center"
         android:textSize="32sp"
         android:textColor="#fff"
-        android:layout_marginLeft="304dp"
+        android:layout_marginLeft="308dp"
         android:layout_marginTop="354dp" />
 
     <TextView
