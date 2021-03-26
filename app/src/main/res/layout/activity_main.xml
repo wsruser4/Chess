@@ -9,16 +9,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="408dp"
         android:layout_height="510dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/board" />
-
-
-
 
 
     <ImageView
@@ -60,7 +57,7 @@
         android:id="@+id/f8"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="254dp"
+        android:layout_marginStart="258dp"
         android:layout_marginTop="50dp" />
 
     <ImageView
@@ -174,7 +171,7 @@
         android:id="@+id/f6"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="254dp"
+        android:layout_marginStart="258dp"
         android:layout_marginTop="154dp" />
 
     <ImageView
@@ -230,7 +227,7 @@
         android:id="@+id/f5"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="254dp"
+        android:layout_marginStart="258dp"
         android:layout_marginTop="204dp" />
 
     <ImageView
@@ -287,7 +284,7 @@
         android:id="@+id/f4"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="254dp"
+        android:layout_marginStart="258dp"
         android:layout_marginTop="254dp" />
 
     <ImageView
@@ -527,7 +524,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/black_pawn"
-        android:layout_marginLeft="254dp"
+        android:layout_marginLeft="258dp"
         android:layout_marginTop="100dp" />
 
     <ImageView
@@ -593,7 +590,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/white_pawn"
-        android:layout_marginLeft="254dp"
+        android:layout_marginLeft="258dp"
         android:layout_marginTop="360dp" />
 
     <ImageView
@@ -612,6 +609,70 @@
         android:layout_marginLeft="358dp"
         android:layout_marginTop="360dp" />
 
+
+    <ImageView
+        android:id="@+id/white_rook_left"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/white_rook"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="408dp" />
+
+    <ImageView
+        android:id="@+id/white_knight_left"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/white_knight"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="408dp"/>
+
+    <ImageView
+        android:id="@+id/white_bishop_left"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="408dp"
+        android:src="@drawable/white_bishop"/>
+
+    <ImageView
+        android:id="@+id/white_queen"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/white_queen"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="408dp" />
+
+    <ImageView
+        android:id="@+id/white_king"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/white_king"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="408dp" />
+
+    <ImageView
+        android:id="@+id/white_bishop_right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/white_bishop"
+        android:layout_marginStart="258dp"
+        android:layout_marginTop="408dp" />
+
+    <ImageView
+        android:id="@+id/white_knight_right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="408dp"
+        android:src="@drawable/white_knight"/>
+
+    <ImageView
+        android:id="@+id/white_rook_right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="358dp"
+        android:layout_marginTop="408dp"
+        android:src="@drawable/white_rook"/>
 
 
 </FrameLayout>

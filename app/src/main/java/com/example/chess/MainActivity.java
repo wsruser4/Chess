@@ -8,10 +8,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
     public int[] x = {1,2,3,4,5,6,7,8};
     public int[] y = {1,2,3,4,5,6,7,8};
+
     public ImageView white_pawn_1, white_pawn_2, white_pawn_3, white_pawn_4, white_pawn_5, white_pawn_6, white_pawn_7, white_pawn_8;
     public ImageView black_pawn_1, black_pawn_2, black_pawn_3, black_pawn_4, black_pawn_5, black_pawn_6, black_pawn_7, black_pawn_8;
+    public ImageView white_king, black_king, white_queen, black_queen, white_bishop_left, white_bishop_right, black_bishop_left, black_bishop_right, white_knight_left, white_knight_right, black_knight_left, black_knight_right, white_rook_left, white_rook_right, black_rook_right;
 
     public ImageView a8, b8, c8, d8, e8, f8, g8, h8;
     public ImageView a7, b7, c7, d7, e7, f7, g7, h7;
@@ -47,6 +50,14 @@ public class MainActivity extends AppCompatActivity {
         black_pawn_7 = findViewById(R.id.black_pawn_7);
         black_pawn_8 = findViewById(R.id.black_pawn_8);
 
+        white_king = findViewById(R.id.white_king);
+        white_queen = findViewById(R.id.white_queen);
+        white_bishop_left = findViewById(R.id.white_bishop_left);
+        white_bishop_right = findViewById(R.id.white_bishop_right);
+        white_knight_left = findViewById(R.id.white_knight_left);
+        white_knight_right = findViewById(R.id.white_knight_right);
+        white_rook_left = findViewById(R.id.white_rook_left);
+        white_rook_right = findViewById(R.id.white_rook_right);
 
         a1 = findViewById(R.id.a1);
         b1 = findViewById(R.id.b1);
@@ -120,8 +131,6 @@ public class MainActivity extends AppCompatActivity {
         f8 = findViewById(R.id.f8);
         g8 = findViewById(R.id.g8);
         d8 = findViewById(R.id.h8);
-
-
 
     }
 
